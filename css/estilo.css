@@ -1,0 +1,113 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.background{
+    
+    width: 100%;
+    height: 900px;
+    background: url(../imagens/back.png) ;
+    background-size: 130px;
+    
+   
+    /*filter: grayscale(1);*/
+    /*transform: rotate(20deg);*/
+    /*background-color: red;*/
+    
+
+    
+}
+
+#containerP{
+    
+    align-content: center;
+    justify-items: center;
+    margin: auto;
+    background: #ffcccc ;
+    width: 916px;
+    height: 616px;
+    margin-top: 30px;
+    
+    
+}
+
+/*Banner */
+#banner{
+    position: top;
+    width: 100%;
+    
+    
+    
+}
+
+#banner .back img{
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+
+/*Menu*/
+
+#menu{
+    width: 20%;
+    
+    float: left;
+    margin: 0 10px;
+    background: #ffffff;
+
+}
+
+#menu ul{
+    list-style: none;
+   
+}
+#menu li{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:link{
+    color: black;
+}
+#menu a:active{
+    color: black;
+}
+#menu a:hover{
+    color: #ffcccc;
+}
+
+#menu a i{
+    margin-right: 5px;
+}
+
+
+/* Conteudo de texto */
+
+#conteudo{
+    
+    width: 30%;
+    
+    padding: 5px;
+    float: left;
+    background: #ffffff;
+    margin-left: 5px;
+}
+p{font-size: 12px;}
+
+/*Videos*/
+
+#videos{
+    width: 40% ;
+    
+    float: left;
+    margin-left: 15px;
+    background: #ffffff;
+}
+
